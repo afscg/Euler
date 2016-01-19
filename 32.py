@@ -1,8 +1,8 @@
-pandigital = set('123456789')
-result = set()
-
 def isPan(x, y, z):
+    pandigital = set('123456789')
     return set(str(x) + str(y) + str(z)) == pandigital
+
+result = set()
 
 for x in range(100):
     for y in range(10000):
